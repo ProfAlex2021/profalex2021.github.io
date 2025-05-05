@@ -1,0 +1,354 @@
+/*BODY*/
+body { font-family: verdana; font-size: 12px; color: #202020; background: #fbfbfb; }
+
+/*HEADER*/
+#header { width: 100%; height: 70px; border-bottom: 1px solid #ddd; background: #efefef; }
+#logo { float: left; width: 156px; height: 50px; margin: 10px 0 0 20px; background-image: url("img/UNIP.png"); }
+#div-img-instituto { float: left; height: 50px; margin: 10px 0 0 20px; width: 156px; }
+#header-title-right { float: right; width: 250px; height: 50px; margin: 20px 20px 0 0; }
+    #header-title-right h1 { font-family: Arial Black; text-transform: uppercase; font-size: 26px; font-weight: bold; color: #74afc5; }
+
+/*FOOTER*/
+div#rodape { position: absolute; bottom: 0; width: 100%; height: 30px; line-height: 30px; text-align: center; border-top: 1px solid #ddd; background-color: #efefef; }
+
+/*FOOTER PROVA*/
+div#rodapeprova { bottom: 0; width: 100%; height: 30px; line-height: 30px; margin-top: 20px; text-align: center; border-top: 1px solid #ddd; background-color: #efefef; }
+
+/*CONTENT*/
+#login_content, #content, #conteudo_nota_final { width: 97%; height: auto; padding: 20px; }
+.title-tipo-prova { margin: 50px; font-size: 1.4em; color: #74AFC5; }
+#login_content ul.tipo-prova { margin: 0 auto; width: 840px; list-style-type: none; }
+    #login_content ul.tipo-prova li { float: left; border: 1px solid #ddd; margin-left: 20px; padding: 20px; cursor: pointer; background: #efefef; }
+        #login_content ul.tipo-prova li:hover { border: 1px solid #5691a7; background: #74AFC5; }
+        #login_content ul.tipo-prova li:first-child { margin-left: 0px; }
+
+    #login_content ul.tipo-prova li { width: 224px; }
+        #login_content ul.tipo-prova li img { margin-bottom: 20px; background: url(img/associadas-home.png) no-repeat; }
+        #login_content ul.tipo-prova li:hover > img { background: url(img/associadas-light.png) no-repeat; }
+        /*#login_content ul.tipo-prova li:first-child img { margin: 20px 0 38px 0; background: url(img/unip.png); }
+        #login_content ul.tipo-prova li:hover:first-child > img { background: url(img/unip-light.png); }
+        #login_content ul.tipo-prova li:last-child img { margin-bottom: 20px; background: url(img/pronatec-home.png); }
+        #login_content ul.tipo-prova li:hover:last-child > img { background: url(img/pronatec-light-home.png); }*/
+
+        #login_content ul.tipo-prova li a { text-decoration: none; color: #74AFC5; }
+        #login_content ul.tipo-prova li:hover > a { text-decoration: none; color: #fff; }
+
+#voltar-para-inicio { margin: -170px auto; width: 650px; color: black !important; }
+    #voltar-para-inicio span a { text-decoration: none; color: #cc0000; }
+        #voltar-para-inicio span a:hover { color: #f00; }
+
+
+/*FORM LOGIN*/
+#frmLogin_box { display: table; width: auto; height: auto; margin: 180px auto; }
+    #frmLogin_box h2 { width: 202px; height: 31px; padding: 0 10px; line-height: 31px; margin-bottom: -2px; text-transform: uppercase; font-size: 12px; font-weight: bold; color: #74afc5; background: #ebebeb; }
+    #frmLogin_box label { float: left; line-height: 20px; }
+    #frmLogin_box input { float: left; width: 202px; padding: 0 5px; height: 20px; text-transform: uppercase; color: #999; border: 1px solid #ddd; }
+        #frmLogin_box input:focus { background: #ffffcc; }
+.button { width: auto; height: 22px; padding: 0 10px; line-height: 20px; border: none; cursor: pointer; color: #fff !important; background: #74afc5; }
+    .button:hover { background: #5690a6; }
+.login { padding: 10px; background: #ebebeb; }
+
+/*TOP BAR*/
+.top_bar { width: auto; height: 25px; line-height: 25px; padding: 0 20px; border-bottom: 1px solid #ddd; background: #ebebeb; }
+    .top_bar a { text-decoration: none; color: #74afc5; }
+        .top_bar a:hover { color: #5690a6; }
+
+/*FORM CONTENT*/
+.form_center { width: 55%; height: auto; margin: 0 auto; padding: 10px; border: 1px solid #ddd; background: #fff; margin-left: 230px; }
+.form_center_provas { width: 642px; height: auto; margin: 0 auto; padding: 10px; border: 1px solid #ddd; background: #f2f2f2; }
+.form_title { width: auto; padding: 5px; margin-bottom: 10px; color: #fff; background: #74afc5; }
+.agendamentos { padding: 0 5px 5px 5px; border-bottom: 1px solid #ddd; background: #f2f2f2; }
+
+/*HEADINGS*/
+h2 { font-size: 14px; font-weight: bold; text-transform: uppercase; color: #74afc5; }
+
+/*FONT STYLE*/
+.bold { font-weight: bold; }
+
+/*FORMAT FONT*/
+.f1 { font-weight: bold; color: #74afc5; }
+
+/*MARGIN*/
+.mt-1 { margin-top: 10px; width: 100px; }
+.mt-2 { margin-top: 20px; }
+.mb-1 { margin-bottom: 10px; }
+.mb-2 { margin-bottom: 20px; }
+.ml-1 { margin-left: 10px; }
+
+/*ALIGN*/
+.center { text-align: center; }
+
+/*FLOAT*/
+.f-left { float: left; }
+.f-right { float: right; }
+
+/*ANIMATION*/
+#frmLogin_box input, button, .button, a, #login_content ul.tipo-prova li { transition: 0.5s all ease; }
+
+/*TIMER & CLOCK*/
+#tempo { position: fixed; top: 275px; left: 49px; width: 87px; height: 30px; line-height: 30px; text-align: center; font-size: 20px; font-weight: bold; color: #74afc5; background: #fff; border: none; z-index: 999; }
+#clock { position: fixed; top: 0; left: 1.1%; width: 154px; height: 367px; background-image: url("img/clock.png"); z-index: -1; }
+
+/*ERROR*/
+#error_box { width: 40%; height: 300px; margin: 8% auto; padding-top: 50px; text-align: center; border: 1px solid #ddd; background: #fff; }
+.erro-text { font-size: 24px; font-weight: bold; }
+#mensagem-finalizacao-erro { margin-top: 10px; width: 190px; margin: 10px auto; padding: 5px; text-align: center; font-size: 14px; color: #CD5C5C; border: 1px solid #f5aaad; background: #ffdadb; }
+#mensagem-finalizacao-sucesso { margin-top: 10px; width: 190px; margin: 10px auto; padding: 5px; text-align: center; font-size: 12px; color: #fff; border: 1px solid #fff; background: #5690a6; }
+#mensagem-abrindo-prova { margin-top: 10px; width: 190px; margin: 10px auto; padding: 5px; text-align: center; font-size: 12px; color: #fff; border: 1px solid #fff; background: #5690a6; }
+.label-sair { font-size: 20px; font-weight: bold; }
+#mensagem-finalizacao-retorno { margin-top: 10px; width: 100px; margin: 10px auto; padding: 5px; text-align: center; font-size: 12px; color: #fff; border: 1px solid #fff; background: #5690a6; }
+.mensagem-legendas { width: 20%; height: auto; margin: 0 auto; padding: 10px; border: 1px solid #ddd; background: #fff; margin-right: 40px; float: right; margin-top: 20px; }
+div#loading { font-size: 13px; font-weight: bold; color: #fff; padding: 10px; left: 45%; position: fixed; top: 45%; display: none; border: 3px solid #333333; background-color: Gray; }
+#conteudo #etapa { width: 97%; margin: 5px 5px 5px 5px; border-top: 2px solid #68D537; border-bottom: 2px solid #68D537; padding: 5px; height: 48px; }
+    #conteudo #etapa p { font-weight: bold; margin-top: 16px; margin-left: 10px; float: left; }
+    #conteudo #etapa .etapa { width: 70px; height: 31px; background-image: url(img/fundo_etapa.gif); display: block; float: left; font-size: 10px; padding: 8px 0px; color: #ffffff; }
+        #conteudo #etapa .etapa .num { font-size: 25px; font-weight: bold; }
+    #conteudo #etapa .mensagem { margin-left: 20px; font-size: 15px; color: Red; font-weight: bold; }
+
+/*VALIDA��O*/
+#mensagem-usuario-invalido, #mensagem-campos-vazios, #mensagem-browser, #mensagem-aviso-agendamento, #mensagem-aviso-agendamento-com-prova-aberta { display: none; margin: 10px auto; padding: 5px; text-align: center; font-size: 14px; color: #CD5C5C; border: 1px solid #f5aaad; background: #ffdadb; }
+
+#mensagem-browser { display: none; margin: 200px auto; padding: 20px; text-align: center; font-size: 14px; color: #CD5C5C; border: 1px solid #f5aaad; background: #ffdadb; width: 500px; }
+
+/*PROVA NOTA FINAL*/
+#conteudo_nota_final #dadosPessoais { padding: 10px; font-weight: bold; color: #fff; background-color: #74afc5; }
+    #conteudo_nota_final #dadosPessoais span { padding: 5px; }
+
+/*PROVA*/
+#conteudoProva { width: 65%; margin: 0 auto; }
+    #conteudoProva h1 { width: 100%; margin: 20px 0 0 0; padding: 3px 0px; font-size: 15px; font-weight: bold; text-transform: uppercase; color: #74afc5; border-bottom: 1px solid #74afc5; }
+    #conteudoProva #timer { background-color: #E1F7D7; }
+form#frmProva .disciplina h2 { font-weight: bold; width: 612px; background-color: #426897; color: #ffffff; margin: 0px 0px 7px 5px; float: left; font-size: 12px; padding: 3px; }
+form#frmProva .questao { width: 100%; margin-top: 20px; border: 1px solid #ddd; background: #fff; }
+    form#frmProva .questao .num { width: 30px; height: 30px; float: left; line-height: 30px; text-align: center; color: #fff; background: #74afc5; }
+    form#frmProva .questao .titulo { margin: 5px; margin-left: 50px; padding: 2px 0px; text-align: left; }
+    form#frmProva .questao li { /* margin: -10px 0 0 50px; */}
+        /*form#frmProva .questao li:hover { margin-left: 50px; background: #fafafa; }*/
+form#frmProva .Alternativas ul li { background: #fafafa; }
+form#frmProva .btn { width: 130px; margin-top: 15px; margin-left: 50px; background-color: #6083AB; border: 1px solid #fff; color: #fff; }
+form#frmProva .Alternativas { padding: 5px; margin-top: 10px; }
+    form#frmProva .Alternativas .letraAlternativa { float: left; display: block; width: 15px; }
+    form#frmProva .Alternativas .tituloAlternativa { margin-left: 5px; display: block; float: left; width: 525px; }
+
+
+.Alternativas ul li label span p { cursor: pointer; }
+#rptExercicio_lblConteudo p img { margin: 20px auto; }
+
+#dados-aviso-finalizacao { line-height: 1.5em; display: none; }
+    #dados-aviso-finalizacao label { float: right; cursor: pointer; color: #F00; }
+
+#dados-aviso-erro { line-height: 1.5em; display: none; }
+    #dados-aviso-erro label { float: right; font-weight: bold; cursor: pointer; color: #F00; }
+
+/*WIDTH*/
+.w-184 { width: 184px; }
+.w-739 { width: 739px; }
+
+#finalizar-prova { position: fixed; top: 117px; right: 1.1%; width: 13.6%; padding: 10px; text-align: center; border: 1px solid #ddd; background: #fff; }
+
+/*GABARITO*/
+
+#gabarito { position: fixed; top: 102px; right: 1.1%; width: 15%; text-align: center; }
+    #gabarito h3 { font-size: 15px; padding: 9px 0; font-weight: bold; text-transform: uppercase; color: #fff; background: #5690a6; margin-top: 36px; }
+#gabaritoResposta { max-height: 433px; font-weight: bold; background: #f2f2f2; }
+    #gabaritoResposta table { width: 100%; }
+        #gabaritoResposta table thead th { padding: 5px; font-weight: bold; color: #fff; background-color: #74afc5; }
+        #gabaritoResposta table tbody td, #gabaritoResposta table tbody td a { padding: 5px; color: #999; }
+}
+#gabarito input { width: 90px; margin: 5px 0px 0px -100px; background-color: #000000; border: 1px solid #000; color: #fff; float: right; }
+.even { background: #e8e8e8; }
+form#frmFinaliza { width: 690px; padding: 5px; }
+    form#frmFinaliza #btnEnviar { width: 90px; margin: 25px 0px 5px 310px; background-color: #6083AB; border: 1px solid #fff; color: #fff; }
+    form#frmFinaliza span { width: 90px; margin: 5px 0px 5px 220px; padding: 5px; background-color: #9BE471; border: 1px solid #fff; color: #fff; }
+
+
+/*
+Estilo para o plugin JQM do Jquery.
+para mais detalhes
+http://dev.iceburg.net/jquery/jqModal/
+*/
+
+.jqmOverlay { background-color: #000; }
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm { position: absolute; top: 0; left: 0; z-index: -1; width: expression(this.parentNode.offsetWidth+'px'); height: expression(this.parentNode.offsetHeight+'px'); }
+
+
+div.jqmAlert { /* contains + positions the alert window */ display: none; position: fixed; top: 30%; width: 400px; left: 50%; margin-left: -200px; }
+
+/* Fixed posistioning emulation for IE6
+           Star selector used to hide definition from browsers other than IE6
+           For valid CSS, use a conditional include instead */
+* html .jqmAlert { position: absolute; top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px'); }
+
+div.jqmAlertWindow { height: auto; width: auto; margin: auto; width: 400px; padding: 2px 5px 5px 5px; }
+
+.jqmAlertTitle { margin: 5px 2px; height: 20px; }
+    .jqmAlertTitle h1 { margin: 2px 2px; padding-left: 5px; padding: 0; font-size: 14px; text-transform: capitalize; letter-spacing: -1px; float: left; height: 20px; }
+
+div.jqmAlert .jqmClose em { display: none; }
+div.jqmAlert .jqmClose { width: 20px; height: 20px; display: block; float: right; clear: right; background: transparent url(../img/ico_fechar_branco.gif) 5px 5px no-repeat; }
+
+
+div.jqmAlertContent { border-top: px; font-weight: bold; font: 14px; margin: 5px; letter-spacing: 0px; }
+div.jqmAlertWindow .jqmIco { width: 36px; height: 36px; float: left; margin-right: 10px; }
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+        clearing a float without additional markup
+         http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+div.jqmAlertWindow input[type="submit"] { padding: 4px 10px; margin: 10px; border: 0px solid; }
+/*
+        temas para o alerta
+        Tema Default
+      */
+
+div.jqmAlertWindow { background: #EFF2F7; }
+    div.jqmAlertWindow .jqmAlertTitle { background: #365F95; color: #fff; }
+        div.jqmAlertWindow .jqmAlertTitle h1 { color: #fff; }
+    div.jqmAlertWindow div.jqmAlertContent { color: #000; }
+    div.jqmAlertWindow input[type="submit"] { background: #365F95; color: #fff; }
+    div.jqmAlertWindow .jqmIco { background: #fff url(../img/ico_info.gif) no-repeat 50% 50%; }
+
+/*
+      Tema Informacao
+      */
+
+div.jqmInfo { background: #EFF2F7; }
+    div.jqmInfo .jqmAlertTitle { background: #365F95; color: #fff; }
+        div.jqmInfo .jqmAlertTitle h1 { color: #fff; }
+    div.jqmInfo div.jqmAlertContent { color: #000; }
+    div.jqmInfo input[type="submit"] { background: #365F95; color: #fff; }
+    div.jqmInfo .jqmIco { background: #fff url(../img/ico_info.gif) no-repeat 50% 50%; }
+/*
+        Tema de mensagem de erro
+            */
+
+div.jqmErro { background: #FBEBEB; }
+    div.jqmErro .jqmAlertTitle { background: #cc0000; color: #fff; }
+        div.jqmErro .jqmAlertTitle h1 { color: #fff; }
+    div.jqmErro div.jqmAlertContent { color: #cc0000; }
+    div.jqmErro input[type="submit"] { background: #cc0000; color: #fff; }
+    div.jqmErro .jqmIco { background: #fff url(../img/ico_delete.gif) no-repeat 50% 50%; }
+
+/*
+        Tema de mensagem de N�o Autorizada
+            */
+
+div.jqmNaoAutorizado { background: #FBEBEB; }
+    div.jqmNaoAutorizado .jqmAlertTitle { background: #cc0000; color: #fff; }
+        div.jqmNaoAutorizado .jqmAlertTitle h1 { color: #fff; }
+    div.jqmNaoAutorizado div.jqmAlertContent { color: #cc0000; }
+    div.jqmNaoAutorizado input[type="submit"] { background: #cc0000; color: #fff; }
+    div.jqmNaoAutorizado .jqmIco { background: #fff url(../img/ico_nao_autorizado.gif) no-repeat 50% 50%; }
+
+/*
+       Tema de mensagem de Sucesso
+            */
+
+div.jqmSucesso { background: #EBF7EF; }
+    div.jqmSucesso .jqmAlertTitle { background: #009933; color: #fff; }
+        div.jqmSucesso .jqmAlertTitle h1 { color: #fff; }
+    div.jqmSucesso div.jqmAlertContent { color: #009933; }
+    div.jqmSucesso input[type="submit"] { background: #009933; color: #fff; }
+    div.jqmSucesso .jqmIco { background: #fff url(../img/ico_sucesso.gif) no-repeat 50% 50%; }
+
+/*
+        Tema de mensagem de Alerta
+            */
+
+
+
+
+/*
+        Tema de mensagem de Instrucoes
+            */
+
+div.jqmInstrucao { background-color: #FFFBEB; }
+    div.jqmInstrucao .jqmAlertTitle { background: #000000; color: #fff; }
+        div.jqmInstrucao .jqmAlertTitle h1 { color: #fff; }
+    div.jqmInstrucao div.jqmAlertContent { color: #000; }
+    div.jqmInstrucao input[type="submit"] { background: #000000; color: #fff; }
+    div.jqmInstrucao .jqmIco { background: #fff url(../img/ico_ferramenta.gif) no-repeat 50% 50%; }
+
+/*
+        fim dos temas para o alert
+      */
+
+
+
+div.jqmConfirm input[type="submit"] { padding: 4px 10px; margin: 10px; background: #FFD52B; color: #00; border: 0px solid #AAA; }
+
+/* jqModal confirm CSS courtesy of;
+             Alexandre Plennevaux <alexandre@pixeline.be>,
+             Brice Burgess <bhb@iceburg.net> */
+
+div.jqmConfirm { /* contains + positions the alert window */ display: none; position: fixed; top: 30%; left: 50%; width: 400px; left: 50%; margin-left: -200px; }
+
+/* Fixed posistioning emulation for IE6
+           Star selector used to hide definition from browsers other than IE6
+           For valid CSS, use a conditional include instead */
+* html div.jqmConfirm { position: absolute; top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px'); }
+
+div.jqmConfirmWindow { height: auto; width: auto; margin: auto; max-width: 400px; padding: 2px 5px 5px 5px; background: #FFF7D5; border: 1px dotted #FFD52B; }
+
+.jqmConfirmTitle { margin: 5px 2px; height: 20px; color: #fff; background: #FFD52B; }
+    .jqmConfirmTitle h1 { margin: 2px 2px; padding-left: 5px; padding: 0; font-size: 14px; text-transform: capitalize; letter-spacing: -1px; color: #000; float: left; height: 20px; }
+
+div.jqmConfirm .jqmClose em { display: none; }
+div.jqmConfirm .jqmClose { width: 20px; height: 20px; display: block; float: right; clear: right; background: transparent url(../img/ico_fechar_branco.gif) 5px 5px no-repeat; }
+
+
+div.jqmConfirmContent { border-top: px; color: #D2A800; font-weight: bold; font: 14px; margin: 5px; letter-spacing: 0px; }
+div.jqmBtn { text-align: right; }
+div.jqmConfirm .jqmIco { width: 36px; height: 36px; float: left; background: #fff url(../img/ico_alerta.gif) no-repeat 50% 50%; margin-right: 10px; }
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
+        clearing a float without additional markup
+         http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+
+/*
+Fim do Estilo para o plugin JQM do Jquery.
+para mais detalhes
+http://dev.iceburg.net/jquery/jqModal/
+*/
+
+
+
+form#frmNota input { width: 90px; margin-top: 15px; background-color: #6083AB; border: 1px solid #fff; color: #fff; margin-left: 110px; }
+
+#rptExercicio_lblConteudo_0 ol li, #rptExercicio_lblConteudo_1 ol li, #rptExercicio_lblConteudo_2 ol li, #rptExercicio_lblConteudo_3 ol li, #rptExercicio_lblConteudo_4 ol li,
+#rptExercicio_lblConteudo_5 ol li, #rptExercicio_lblConteudo_6 ol li, #rptExercicio_lblConteudo_7 ol li, #rptExercicio_lblConteudo_8 ol li, #rptExercicio_lblConteudo_9 ol li,
+#rptExercicio_lblConteudo_10 ol li, #rptExercicio_lblConteudo_11 ol li, #rptExercicio_lblConteudo_12 ol li, #rptExercicio_lblConteudo_13 ol li, #rptExercicio_lblConteudo_14 ol li,
+#rptExercicio_lblConteudo_15 ol li, #rptExercicio_lblConteudo_16 ol li, #rptExercicio_lblConteudo_17 ol li, #rptExercicio_lblConteudo_18 ol li, #rptExercicio_lblConteudo_19 ol li,
+#rptExercicio_lblConteudo_20 ol li, #rptExercicio_lblConteudo_26 ol li, #rptExercicio_lblConteudo_31 ol li, #rptExercicio_lblConteudo_36 ol li, #rptExercicio_lblConteudo_41 ol li,
+#rptExercicio_lblConteudo_21 ol li, #rptExercicio_lblConteudo_27 ol li, #rptExercicio_lblConteudo_32 ol li, #rptExercicio_lblConteudo_37 ol li, #rptExercicio_lblConteudo_42 ol li,
+#rptExercicio_lblConteudo_22 ol li, #rptExercicio_lblConteudo_28 ol li, #rptExercicio_lblConteudo_33 ol li, #rptExercicio_lblConteudo_38 ol li, #rptExercicio_lblConteudo_43 ol li,
+#rptExercicio_lblConteudo_23 ol li, #rptExercicio_lblConteudo_29 ol li, #rptExercicio_lblConteudo_34 ol li, #rptExercicio_lblConteudo_39 ol li, #rptExercicio_lblConteudo_44 ol li,
+#rptExercicio_lblConteudo_24 ol li, #rptExercicio_lblConteudo_30 ol li, #rptExercicio_lblConteudo_35 ol li, #rptExercicio_lblConteudo_40 ol li, #rptExercicio_lblConteudo_45 ol li #rptExercicio_lblConteudo_25 ol li { line-height: 3.5em !important; }
+
+#rptExercicio_lblConteudo_0 ul li, #rptExercicio_lblConteudo_1 ul li, #rptExercicio_lblConteudo_2 ul li, #rptExercicio_lblConteudo_3 ul li, #rptExercicio_lblConteudo_4 ul li,
+#rptExercicio_lblConteudo_5 ul li, #rptExercicio_lblConteudo_6 ul li, #rptExercicio_lblConteudo_7 ul li, #rptExercicio_lblConteudo_8 ul li, #rptExercicio_lblConteudo_9 ul li,
+#rptExercicio_lblConteudo_10 ul li, #rptExercicio_lblConteudo_11 ul li, #rptExercicio_lblConteudo_12 ul li, #rptExercicio_lblConteudo_13 ul li, #rptExercicio_lblConteudo_14 ul li,
+#rptExercicio_lblConteudo_15 ul li, #rptExercicio_lblConteudo_16 ul li, #rptExercicio_lblConteudo_17 ul li, #rptExercicio_lblConteudo_18 ul li, #rptExercicio_lblConteudo_19 ul li,
+#rptExercicio_lblConteudo_20 ul li, #rptExercicio_lblConteudo_21 ul li, #rptExercicio_lblConteudo_22 ul li, #rptExercicio_lblConteudo_23 ul li, #rptExercicio_lblConteudo_24 ul li,
+#rptExercicio_lblConteudo_25 ul li, #rptExercicio_lblConteudo_26 ul li, #rptExercicio_lblConteudo_27 ul li, #rptExercicio_lblConteudo_28 ul li, #rptExercicio_lblConteudo_29 ul li,
+#rptExercicio_lblConteudo_30 ul li { line-height: 3.5em !important; }
